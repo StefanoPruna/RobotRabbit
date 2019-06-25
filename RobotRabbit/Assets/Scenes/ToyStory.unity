@@ -298,10 +298,10 @@ MonoBehaviour:
   txtX: {fileID: 594939071}
   txtY: {fileID: 244703117}
   dropdownDirection: {fileID: 760562239}
-  UpSprite: {fileID: 21300002, guid: d4c15659ea7ed0749882f78890a74a17, type: 3}
-  DownSprite: {fileID: 21300000, guid: 4d0bde462dbc1bd4e930dd069c8e4d90, type: 3}
-  RightSprite: {fileID: 21300004, guid: d4c15659ea7ed0749882f78890a74a17, type: 3}
-  LeftSprite: {fileID: 21300004, guid: 4986a6f6360ec254fa146576e1baaf74, type: 3}
+  UpSprite: {fileID: 21300004, guid: 4986a6f6360ec254fa146576e1baaf74, type: 3}
+  DownSprite: {fileID: 21300002, guid: 4986a6f6360ec254fa146576e1baaf74, type: 3}
+  RightSprite: {fileID: 21300002, guid: d4c15659ea7ed0749882f78890a74a17, type: 3}
+  LeftSprite: {fileID: 21300006, guid: 4986a6f6360ec254fa146576e1baaf74, type: 3}
 --- !u!4 &226580013
 Transform:
   m_ObjectHideFlags: 0
