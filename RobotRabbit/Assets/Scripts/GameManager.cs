@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public InputField txtX;
     public InputField txtY;
     public Dropdown dropdownDirection;
+    public Text errorValue;
+    
 
     Rigidbody2D myRB;
     SpriteRenderer myRend;
@@ -23,12 +25,14 @@ public class GameManager : MonoBehaviour
     public Sprite RightSprite;
     public Sprite LeftSprite;
 
+    
     // Start is called before the first frame update
     void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
         myRend = GetComponent<SpriteRenderer>();
         Anim = GetComponent<Animator>();
+        errorValue.text = "";
     }
 
     // Update is called once per frame
@@ -43,10 +47,11 @@ public class GameManager : MonoBehaviour
         int y = Convert.ToInt32(txtY.text);
         string direction = dropdownDirection.options[dropdownDirection.value].text;
 
-        if (x >= 3 || x <= -3)        
-            return;
+        if (x >= 3 || x <= -3)
+            ErrorText();
+
         if (y >= 3 || y <= -3)
-            return;                              
+            ErrorText();
 
         robot.SetActive(true);
 
@@ -72,6 +77,12 @@ public class GameManager : MonoBehaviour
        
     }
 
+    void ErrorText()
+    {
+        errorValue.text = "INVALID VALUE INSERT";
+    }
+
+   
     void Flip()
     {
         facingRight = !facingRight;
