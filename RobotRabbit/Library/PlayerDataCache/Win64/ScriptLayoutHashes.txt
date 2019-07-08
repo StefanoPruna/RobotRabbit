@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/makem/OneDrive/Documents/Github/Toy Robot Simulator.exe
+C:/Users/makem/OneDrive/Documents/Github/RobotRabbit/Toy Robot Simulator.exe
 SceneListBegin?
 Assets/Scenes/ToyStory.unity
 SceneListEnd?
@@ -158,4 +158,4 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 5372ed2ce39229b1ac910757999a8be2 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-a3d9173261b49749cac7c3ce08780aad Assembly-CSharp.dll:.GameManager
+f7c3ad6f3d95966f52be44327dd1d53b Assembly-CSharp.dll:.GameManager

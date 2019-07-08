@@ -20,10 +20,10 @@ public class GameManager : MonoBehaviour
 
     bool facingRight = true;
 
-    public Sprite UpSprite;
-    public Sprite DownSprite;
-    public Sprite RightSprite;
-    public Sprite LeftSprite;
+    public Sprite NorthSprite;
+    public Sprite SouthSprite;
+    public Sprite EastSprite;
+    public Sprite WestSprite;
 
     
     // Start is called before the first frame update
@@ -62,16 +62,16 @@ public class GameManager : MonoBehaviour
         switch(direction.ToLower())
         {
             case "north":
-                robot.GetComponent<SpriteRenderer>().sprite = UpSprite;
+                robot.GetComponent<SpriteRenderer>().sprite = NorthSprite;
                 break;
             case "south":
-                robot.GetComponent<SpriteRenderer>().sprite = DownSprite;
+                robot.GetComponent<SpriteRenderer>().sprite = SouthSprite;
                 break;
             case "west":
-                robot.GetComponent<SpriteRenderer>().sprite = LeftSprite;
+                robot.GetComponent<SpriteRenderer>().sprite = WestSprite;
                 break;
             case "east":
-                robot.GetComponent<SpriteRenderer>().sprite = RightSprite;
+                robot.GetComponent<SpriteRenderer>().sprite = EastSprite;
                 break;
         }
        
